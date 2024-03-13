@@ -1,0 +1,38 @@
+.1 creare Branch Develop
+.2 inserire Develop come branch default (andare impostazioni di guthub)
+.3 dobbiamo finire l'esercizio (Il compito degli altri componenti del gruppo sarà quello di aggiungere una voce nel
+                                menù a testa)
+.4 Il lavoro completo dovrà essere prensentato in develop, quindi ognuno aprirà una Pull
+   Request verso develop.
+
+
+Nome Ristorante : Ristorante La Sirenetta
+Chef :  Alice
+
+Menu di pesce :
+Primi Piatti :
+- Carpaccio Maguro               € 18.50
+- Tartarre di Salmone            € 14.80
+- Burrikama                      € 22.90
+
+Secondi Piatti :
+-Insalata di Polpo e Patate     € 18.80
+-Salmone Grigliato              € 25.90
+-Seppie con Piselli             € 16.40
+
+Dessert:
+-Tiramisú                       € 8.00
+-Tartufo di pizzo               € 8.40
+-Torta della nonna              € 10.90
+-Mazamorra morada               € 6.70
+
+Bevande :
+
+- Acqua Naturale               2.50
+- Coca Cola                    3.00
+- Birra Peroni                 2.00
+- Fanta                        3.00
+- Vino Rosso Fazio             6.50
+- Vino Bianco TeamJava         14.50
+
+
