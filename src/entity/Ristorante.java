@@ -1,8 +1,10 @@
+package entity;
+
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * The type Ristorante.
+ * The type entity.Ristorante.
  */
 public class Ristorante {
     private String nome;
@@ -11,7 +13,7 @@ public class Ristorante {
     private List<Menu>  listaMenu;
 
     /**
-     * Instantiates a new Ristorante.
+     * Instantiates a new entity.Ristorante.
      *
      * @param nome             the nome
      * @param indirizzo        the indirizzo
@@ -91,7 +93,7 @@ public class Ristorante {
      * Print info.
      */
     public void printInfo(){
-        System.out.println("Ristorante : " + this.nome + "\nIndirizzo : " + this.indirizzo  +
+        System.out.println("entity.Ristorante : " + this.nome + "\nIndirizzo : " + this.indirizzo  +
                 (michelinGuide ? "\nQuesto ristorante è presente sulla guida Michelin" : "\nQuesto ristorante non è presente sulla guida Michelin"));
         for (Menu menu : listaMenu) {
             System.out.println("Chef  : "+ menu.getChef());

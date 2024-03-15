@@ -1,5 +1,8 @@
+package entity;
+import type.*;
+
 /**
- * The type Portata.
+ * The type entity.Portata.
  */
 public class Portata {
     private String nome;
@@ -8,7 +11,7 @@ public class Portata {
 
 
     /**
-     * Instantiates a new Portata.
+     * Instantiates a new entity.Portata.
      *
      * @param nome          the nome
      * @param prezzo        the prezzo
@@ -76,7 +79,7 @@ public class Portata {
 
     @Override
     public String toString() {
-        return "Portata{" +
+        return "entity.Portata{" +
                 "nome='" + nome + '\'' +
                 ", prezzo=" + prezzo +
                 ", tipoDietaEnum=" + tipoDietaEnum +

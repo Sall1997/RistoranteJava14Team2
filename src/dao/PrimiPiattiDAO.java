@@ -1,3 +1,5 @@
+package dao;
+import entity.*;
 import java.sql.*;
 public class PrimiPiattiDAO {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/ristorante";

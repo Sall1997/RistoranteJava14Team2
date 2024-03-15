@@ -1,3 +1,5 @@
+package dao;
+import entity.*;
 import java.sql.*;
 
 public class BevandeDao {
@@ -29,7 +31,7 @@ public class BevandeDao {
 
         conn.close();
 
-        System.out.println("Tabella Bevande creata");
+        System.out.println("Tabella entity.Bevande creata");
     }
 
     public void insertBevande(Bevande bevande) throws SQLException {
@@ -82,13 +84,13 @@ public class BevandeDao {
 
         statement.executeUpdate(updatequery);
         conn.close();
-        System.out.println("Bevande con id " + BevandeId + " aggiornato");
+        System.out.println("entity.Bevande con id " + BevandeId + " aggiornato");
     }
 
     public void deleteBevande(Integer bevandeId) throws SQLException {
         Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
         Statement statement = conn.createStatement();
-        String deleteQuery = "delete from Bevande " + "where Bevande_id =" + bevandeId;
+        String deleteQuery = "delete from entity.Bevande " + "where Bevande_id =" + bevandeId;
 
         statement.executeUpdate(deleteQuery);
         conn.close();

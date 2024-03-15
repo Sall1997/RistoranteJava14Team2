@@ -1,3 +1,5 @@
+package type;
+
 public enum ColorEnum {
     RESET("\u001B[0m", "imposta il testo con il colore predefinito " ),
     RED("\u001B[31m", "imposta il testo con il colore rosso "),

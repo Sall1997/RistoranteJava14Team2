@@ -1,3 +1,5 @@
+package type;
+
 public enum Tipo {
     VEGANO("VEGANO", ColorEnum.BLUE),
     VEGETARIANO("VEGETARIANO", ColorEnum.GREEN),

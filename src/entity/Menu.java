@@ -1,9 +1,12 @@
+package entity;
+
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
+import type.*;
 
 /**
- * The type Menu.
+ * The type entity.Menu.
  */
 public class Menu {
     private List<Portata> listaPortate;
@@ -12,7 +15,7 @@ public class Menu {
     private Tipo tipoMenu;
 
     /**
-     * Instantiates a new Menu.
+     * Instantiates a new entity.Menu.
      *
      * @param nomeMenu the nome menu
      */

@@ -1,3 +1,5 @@
+package dao;
+import entity.*;
 import java.sql.*;
 
 public class MenuDao {

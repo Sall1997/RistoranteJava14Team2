@@ -1,5 +1,7 @@
+package entity;
+import type.*;
 /**
- * The type Dessert.
+ * The type entity.Dessert.
  */
 public class Dessert extends Portata {
     private Integer id;
@@ -30,7 +32,7 @@ public class Dessert extends Portata {
         this.amountOfCalories = amountOfCalories;
     }
 
-    public Dessert(String nome, Double prezzo, Tipo tipoDietaEnum,Integer id,Integer menuId, Double amountOfCalories) {
+    public Dessert(String nome, Double prezzo, Tipo tipoDietaEnum, Integer id, Integer menuId, Double amountOfCalories) {
         super(nome, prezzo, tipoDietaEnum);
         this.amountOfCalories = amountOfCalories;
         this.menuId = menuId;

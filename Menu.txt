@@ -6,10 +6,10 @@
    Request verso develop.
 
 
-Nome Ristorante : Ristorante La Sirenetta
+Nome entity.Ristorante : entity.Ristorante La Sirenetta
 Chef :  Alice
 
-Menu di pesce :
+entity.Menu di pesce :
 Primi Piatti :
 - Carpaccio Maguro               € 18.50
 - Tartarre di Salmone            € 14.80
@@ -20,13 +20,13 @@ Secondi Piatti :
 -Salmone Grigliato              € 25.90
 -Seppie con Piselli             € 16.40
 
-Dessert:
+entity.Dessert:
 -Tiramisú                       € 8.00
 -Tartufo di pizzo               € 8.40
 -Torta della nonna              € 10.90
 -Mazamorra morada               € 6.70
 
-Bevande :
+entity.Bevande :
 
 - Acqua Naturale               2.50
 - Coca Cola                    3.00

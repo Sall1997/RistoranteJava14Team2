@@ -1,3 +1,5 @@
+package dao;
+import entity.*;
 import java.sql.*;
 
 public class DessertDao {
@@ -32,7 +34,7 @@ public class DessertDao {
         System.out.println("Tabella dessert creata");
     }
 
-    /*public void insertDessert(Dessert dessert) throws SQLException {
+    /*public void insertDessert(entity.Dessert dessert) throws SQLException {
         Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
         Statement statement = conn.createStatement();
 
@@ -85,7 +87,7 @@ public class DessertDao {
         conn.close();
     }
 
-    public void updateDessert(Dessert newDessertToUpdate,Integer id) throws SQLException{
+    public void updateDessert(Dessert newDessertToUpdate, Integer id) throws SQLException{
         Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
         Statement statement = conn.createStatement();
 
@@ -101,7 +103,7 @@ public class DessertDao {
             currentDessertId = resultSet.getInt(id);
         }
         String updateDessert =
-                         "UPDATE dessert " +
+                "UPDATE dessert " +
                         "SET nome = '" + newDessertToUpdate.getNome() + "', " +
                         "prezzo = '" + newDessertToUpdate.getPrezzo() + "', " +
                         "tipo_dieta = '" + newDessertToUpdate.getTipoDieta() + "', " +

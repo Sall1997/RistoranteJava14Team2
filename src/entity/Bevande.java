@@ -1,5 +1,8 @@
+package entity;
+import type.*;
+
 /**
- * The type Bevande.
+ * The type entity.Bevande.
  */
 public class Bevande extends Portata {
 

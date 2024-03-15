@@ -1,5 +1,7 @@
+package dao;
+import entity.*;
 import java.sql.*;
-public class SecondiPiattiDAO {
+public class SecondiPiattiDao {
     private static final String DB_URL = "jdbc:mysql://localhost:3306/ristorante";
     private static final String USER = "root";
     private static final String PASS = "java14";

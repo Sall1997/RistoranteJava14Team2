@@ -1,3 +1,6 @@
+package entity;
+import type.*;
+
 /**
  * The type Secondi piatti.
  */
